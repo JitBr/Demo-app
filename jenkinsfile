@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Docker Hub credentials stored in Jenkins
         DOCKERHUB = credentials('dockerhub-creds')
-        IMAGE_NAME = 'jitBr/demo-app'  // Replace with your Docker Hub repo name
+        IMAGE_NAME = 'rekxjit/demo-app'  // Replace with your Docker Hub repo name
     }
 
     stages {
